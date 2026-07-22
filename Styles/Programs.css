@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(0, 0, 0);
+  background: navy;
 }
 h1 {
   color: white;
@@ -33,14 +33,13 @@ h1:hover::after {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  flex-wrap: wrap;
   margin: 20px;
   gap: 20px;
   padding: 20px;
   justify-content: space-between;
   box-shadow: 0px 0px 10px rgb(226, 225, 223);
   border-radius: 25px;
-  background: rgb(0, 0, 0);
+  background: rgb(253, 253, 253);
 }
 
 .card {
@@ -52,7 +51,6 @@ h1:hover::after {
   border-radius: 15px;
   transition: all 0.4s ease;
   cursor: pointer;
-  border: 1px solid rgb(158, 229, 235);
   margin-bottom: 10px;
   background: rgb(17, 17, 17);
 }
@@ -84,7 +82,7 @@ h1:hover::after {
 .card h4 {
   font-size: 1.6rem;
   font-weight: 700;
-  color: rgb(158, 229, 235);
+  color: rgb(250, 164, 34);
 }
 .card p {
   text-align: justify;
@@ -105,13 +103,14 @@ h1:hover::after {
 
   margin-top: 10px;
   border-radius: 12px;
-  background: rgb(158, 229, 235);
+  background: rgba(214, 42, 248, 0.521);
   font-size: 1rem;
 }
 
 .card button:hover {
-  background: #03c8e2;
+  background: #ff6b00;
   transform: translateY(-5px);
+<<<<<<< HEAD
   box-shadow: 0 0 10px rgb(158, 229, 235);
 }
 
@@ -229,4 +228,6 @@ h1:hover::after {
     padding: 10px;
     margin: 0 auto;
   }
+=======
+>>>>>>> 4d2bbfe5bc269f4d9ef11f885bb0830cfb900e8f
 }
