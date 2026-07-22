@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 8% 2rem;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem ;
+    background: rgba(0, 0, 0.5);
+}
+
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+span{
+    color: #00ffff;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 4rem;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover{
+    color: #00ffff;
+    border-bottom: 3px solid #00ffff;
+}
+
+.nav-btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: transparent;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 1rem;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.nav-btn:hover{
+    background-color: #00ffff;
+    color: #fff;
+    box-shadow: 0 0 18px #00ffff;
+}
+
+.home{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-self: center;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.home-content span{
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+span{
+    color: #00ffff;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.0;
+}
+
+.home-img{
+    width: 450px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 60px 20px #000;
+    transition: 0.3s ease;
+}
+
+.home-content p{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #00ffff;
+    box-shadow: none;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    color: #fff;
+    box-shadow: 0 0 1.3rem #00ffff;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #000;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #00ffff;
+}
+
+.footer .social a{
+    font-size: 25px;
+
+}
