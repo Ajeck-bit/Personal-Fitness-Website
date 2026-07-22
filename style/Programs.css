@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: navy;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #ff6b00;
+  border-radius: 2px;
+  transition: width 0.3s ease-in-out;
+}
+
+h1:hover::after {
+  width: 100%;
+}
+.section {
+  width: 95%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px rgb(226, 225, 223);
+  border-radius: 25px;
+  background: rgb(253, 253, 253);
+}
+
+.card {
+  width: 95%;
+  height: auto;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 0 0 5px rgb(245, 3, 76);
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background: rgb(17, 17, 17);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 5px rgb(66, 8, 201);
+}
+.card img {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+.card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+}
+
+.card h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: rgb(250, 164, 34);
+}
+.card p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+.card button {
+  color: white;
+  display: flex;
+  width: 60%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 12px;
+  background: rgba(214, 42, 248, 0.521);
+  font-size: 1rem;
+}
+
+.card button:hover {
+  background: #ff6b00;
+  transform: translateY(-5px);
+}
