@@ -30,9 +30,6 @@ body {
   height: auto;
   display: flex;
 }
-label {
-  margin-left: 100px;
-}
 input {
   width: 700px;
   padding: 12px;
