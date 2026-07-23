@@ -14,75 +14,107 @@ body {
   width: 100%;
   margin: auto;
   padding: 60px 0;
+  line-height: 1.8em;
 }
-.Container {
+.Contact h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.Contact span {
+  color: #00e6b8;
+}
+.Contact p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Contact-hero {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
   flex-wrap: wrap;
-  gap: 20px;
-  width: 50%;
-  border-radius: 30px;
-  margin-left: 90px;
-  box-shadow: 0 0 10px solid #00e6b8;
-  border: 2px solid #00e6b8;
 }
+
 .Contact-form {
   flex: 1;
-  width: 100%;
-  height: auto;
-  display: flex;
+  border: 3px solid #00e6b8;
+  border-radius: 20px;
+  width: 30px;
 }
-label {
-  margin-left: 100px;
+
+.Contact-form h2 {
+  margin-bottom: 20px;
+  align-items: center;
 }
-input {
-  width: 700px;
-  padding: 12px;
+
+.Contact-form input {
+  width: 80%;
+  padding: 14px;
   border-radius: 8px;
   border: none;
-  display: flex;
-  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 .Contact-form textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 10px;
+  width: 80%;
+  padding: 14px;
   border-radius: 8px;
   border: none;
-  display: flex;
-  margin: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  resize: none;
+  margin-top: auto;
+  margin-left: 30px;
 }
+
 button {
-  width: 90%;
+  width: 80%;
   padding: 12px;
   margin: 20px;
   background: #00e6b8;
   color: black;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
   font-weight: bold;
   display: block;
-  transition: all 0.2s ease;
+  transition: 0.3s;
+  align-items: center;
 }
 button:hover {
   background-color: #00e6b8;
   transform: scale(1.06);
+  cursor: pointer;
 }
 .Contact-card {
-  width: 300px;
-  height: 400px;
+  flex: 1;
+  width: 280px;
   background-color: #111;
   border: 3px solid #00e6b8;
   border-radius: 20px;
-  padding: 15px;
+  padding: 25px;
   transition: 0.5s;
   box-shadow: 0 0 10px #fff;
-  cursor: pointer;
-  margin-top: 100px;
-  margin-left: 300px;
 }
 .Contact-card:hover {
   transform: translateY(-12px);
+  cursor: pointer;
+}
+.Contact-card h2 {
+  margin-bottom: 70px;
+  align-items: center;
+}
+.Contact-card a {
+  text-decoration: none;
+  color: white;
+}
+.Contact-card a:hover {
+  color: #00e6b8;
 }
 
 .Contact-info {
@@ -97,18 +129,19 @@ button:hover {
   text-decoration: underline;
 }
 
-h1 {
-  text-align: center;
-  font-size: 2.8rem;
-  margin: 10px;
-}
-h2 {
-  text-align: center;
-}
+@media (max-width: 768px) {
+  .Contact-hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Contact-form {
+    width: 300px;
+  }
 
-.Contact span {
-  color: #00e6b8;
-}
+  .Contact-card {
+    width: 300px;
+    height: 10px;
+  }
 
 p {
   text-align: center;
