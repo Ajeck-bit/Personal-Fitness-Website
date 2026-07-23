@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(7, 7, 7);
+  background: navy;
+  padding-top: 140px;
 }
 h1 {
   color: white;

@@ -12,6 +12,7 @@
 body {
   background-color: black;
   color: white;
+  padding-top: 150px;
 }
 
 .Trainers {
@@ -20,7 +21,7 @@ body {
 }
 
 .Trainers span {
-  color: #00e6b8;
+  color: #5cf5d9;
 }
 
 .Container {
@@ -73,4 +74,11 @@ button {
 button:hover {
   background-color: #00e6b8;
   cursor: pointer;
+}
+
+@media(max-width:768px){
+  body{
+    padding-top: 300px;
+    line-height: 1.6;
+  }
 }

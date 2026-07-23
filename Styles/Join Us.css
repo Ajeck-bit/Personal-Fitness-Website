@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(13, 13, 14);
+  padding-top: 80px;
 }
 .info {
   width: 700px;
   height: auto;
   justify-content: center;
-  border: 1px solid rgba(29, 239, 247, 0.986);
+  border: 1px solid #fff;
   border-radius: 25px;
   box-shadow: 1px 0px 5px 1px rgba(194, 190, 190, 0.952);
   margin-top: 170px;
@@ -32,15 +33,15 @@ body {
   width: 100px;
   height: 100px;
   margin-top: 20px;
-  margin-left: 280px;
+  margin-left: 300px;
   border-radius: 50%;
-  border: 2px solid rgba(12, 240, 240, 0.904);
+  border: 2px solid rgb(69, 202, 243);
   transition: 0.4s ease-in-out;
 }
 
 .info img:hover {
-  transform: translateY(-10px) scale(1.2);
-  border: 3px solid greenyellow;
+  transform: translateY(-10px) scale(1.1);
+  border: 3px solid rgb(88, 223, 228);
 }
 
 .form {
@@ -48,7 +49,7 @@ body {
   height: auto;
   display: grid;
   grid-template-columns: 3fr 3fr;
-  background: rgba(218, 221, 216, 0.164);
+  background: rgba(71, 220, 247, 0.164);
   border-radius: 15px;
   margin: 10px;
 }
@@ -60,10 +61,10 @@ label {
 input {
   width: 97%;
   padding: 20px;
-  border: 2px solid rgba(0, 0, 255, 0.13);
+  border: 2px solid rgb(37, 245, 252);
   justify-content: space-between;
   border-radius: 10px;
-  border-right: 2px solid rgb(194, 166, 7);
+  border-right: 2px solid rgb(97, 203, 245);
   transition: 0.4s ease-in-out;
 }
 
@@ -72,19 +73,10 @@ input::placeholder {
 }
 
 input:focus {
-  border: 1px solid orange;
+  border: 1px solid rgb(30, 192, 233);
 }
 input:hover {
-  transform: translateY(-5px) scale(1);
-}
-.btn {
-  width: 300px;
-  height: auto;
-  padding: 4px;
-  box-shadow: 2px 0px 4px rgba(29, 9, 63, 0.568);
-  margin-top: 15px;
-  display: flex;
-  justify-content: space-between;
+  transform: translateY(-5pxpx) scale(1);
 }
 
 button {
@@ -92,6 +84,7 @@ button {
   width: 100%;
   margin: 20px;
   border-radius: 10px;
+  margin-left: 150px;
   border: none;
   transition: 0.3s ease-in-out;
 
@@ -104,12 +97,10 @@ button {
 }
 
 #button1 {
-  background: rgb(9, 241, 230);
+  background: rgb(30, 205, 236);
 }
-
-@media (max-width: 768px) {
-  .info {
-    width: 95%;
-    margin: 0;
+@media(max-width:768px){
+  .info{
+    
   }
 }
