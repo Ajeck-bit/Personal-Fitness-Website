@@ -40,7 +40,7 @@ h1:hover::after {
   justify-content: space-between;
   box-shadow: 0px 0px 10px rgb(226, 225, 223);
   border-radius: 25px;
-  background: rgb(253, 253, 253);
+  background: rgb(0, 0, 0);
 }
 
 .card {
@@ -51,14 +51,15 @@ h1:hover::after {
   box-shadow: 0 0 5px rgb(245, 3, 76);
   border-radius: 15px;
   transition: all 0.4s ease;
-  cursor: pointer;
   margin-bottom: 10px;
   background: rgb(17, 17, 17);
+  border: 2px solid rgb(12, 228, 243);
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 5px rgb(66, 8, 201);
+  border: 4px solid rgb(18, 239, 247);
+  box-shadow: 0 0 5px rgb(8, 226, 241);
 }
 .card img {
   width: 400px;
@@ -83,11 +84,11 @@ h1:hover::after {
 .card h4 {
   font-size: 1.6rem;
   font-weight: 700;
-  color: rgb(250, 164, 34);
+  color: rgb(18, 229, 236);
 }
 .card p {
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: white;
 }
@@ -101,17 +102,15 @@ h1:hover::after {
   place-items: center;
   justify-items: center;
   justify-content: center;
-
   margin-top: 10px;
   border-radius: 12px;
-  background: rgba(214, 42, 248, 0.521);
+  background: rgba(21, 241, 248, 0.904);
   font-size: 1rem;
 }
 
 .card button:hover {
-  background: #ff6b00;
+  background: #18cdec;
   transform: translateY(-5px);
-<<<<<<< HEAD
   box-shadow: 0 0 10px rgb(158, 229, 235);
 }
 
@@ -167,10 +166,11 @@ h1:hover::after {
     align-items: center;
     padding: 15px;
     gap: 20px;
+    width: 95%;
   }
 
   .card {
-    width: 50%;
+    width: 93%;
   }
 
   .card img {
@@ -229,6 +229,4 @@ h1:hover::after {
     padding: 10px;
     margin: 0 auto;
   }
-=======
->>>>>>> 4d2bbfe5bc269f4d9ef11f885bb0830cfb900e8f
 }

@@ -87,6 +87,8 @@ button {
   margin-left: 150px;
   border: none;
   transition: 0.3s ease-in-out;
+
+  margin-left: 150px;
 }
 
 .btn button:hover {
