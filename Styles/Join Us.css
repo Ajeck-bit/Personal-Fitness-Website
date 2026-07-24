@@ -97,8 +97,3 @@ button {
 #button1 {
   background: rgb(30, 205, 236);
 }
-@media(max-width:768px){
-  .info{
-    
-  }
-}
